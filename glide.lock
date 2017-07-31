@@ -1,0 +1,31 @@
+hash: 9b38534d53fe9a344c13ca8532b0159d06d6087304d7ff6f31b80013972ea84f
+updated: 2017-07-31T11:44:08.426049353+08:00
+imports:
+- name: github.com/golang/snappy
+  version: 553a641470496b2327abcac10b36396bd98e45c9
+- name: github.com/gorilla/context
+  version: 1ea25387ff6f684839d82767c1733ff4d4d15d0a
+- name: github.com/gorilla/securecookie
+  version: e59506cc896acb7f7bf732d4fdf5e25f7ccd8983
+- name: github.com/gorilla/sessions
+  version: ca9ada44574153444b00d3fd9c8559e4cc95f896
+- name: github.com/julienschmidt/httprouter
+  version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
+- name: github.com/plimble/ace
+  version: 83b99d2868eef2874e64c7b9e0db33ea71339d9b
+- name: github.com/syndtr/goleveldb
+  version: b89cc31ef7977104127d34c1bd31ebd1a9db2199
+  subpackages:
+  - leveldb
+  - leveldb/cache
+  - leveldb/comparer
+  - leveldb/errors
+  - leveldb/filter
+  - leveldb/iterator
+  - leveldb/journal
+  - leveldb/memdb
+  - leveldb/opt
+  - leveldb/storage
+  - leveldb/table
+  - leveldb/util
+testImports: []
