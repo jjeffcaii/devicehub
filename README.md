@@ -1,25 +1,21 @@
 # Device Hub
--------------------------
 Search mobile device model info.
 
 
 ## Build
--------------------------------
 ```shell
 $ glide update && glide install && go build
 ```
 
 ## How To Run?
---------------------------------
 
-Docker is recommended: 
+Docker is recommended:
 
 ```shell
-$ docker run --rm -ti -p 3000:3000 -v $DB_ANDROID:/data/android.txt -v $DB_IOS:/data/ios.txt $IMAGE
+$ docker run --rm -ti -p 3000:3000 jjeffcaii/devicehub:latest
 ```
 
 ## Restful Docs
--------------------------------
 
 Example: search for `iPhone7,2`
 
@@ -36,7 +32,6 @@ It will return JSON string:
 ```
 
 ## FAQ
----------------------------
 
 > Q: Where can I get latest device models?
 
